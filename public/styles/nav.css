@@ -1,0 +1,24 @@
+.navbar {
+    max-height: 3.5rem;
+}
+
+.login-btn {
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+}
+
+.login-btn:hover {
+    color: #6c757d;
+}
+
+.login-btn:focus {
+    box-shadow: none !important;
+}
+
+.profile-pic {
+    width: 2rem;
+    border-radius: 50%;
+    height: 2rem;
+    object-fit: cover;
+    object-position: center;
+}

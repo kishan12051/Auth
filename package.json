@@ -1,0 +1,44 @@
+{
+  "name": "passport-auth",
+  "version": "1.0.0",
+  "description": "Authentication with node.js and passport.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disaladamsas/node-passport-auth.git"
+  },
+  "author": "Disala Damsas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/disaladamsas/node-passport-auth/issues"
+  },
+  "homepage": "https://github.com/disaladamsas/node-passport-auth#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "csurf": "^1.11.0",
+    "dompurify": "^2.3.5",
+    "dotenv": "^15.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "express-flash": "0.0.2",
+    "express-minify-html": "^0.12.0",
+    "googleapis": "^94.0.0",
+    "jsdom": "^19.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.7",
+    "nodemailer": "^6.7.2",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0"
+  }
+}
